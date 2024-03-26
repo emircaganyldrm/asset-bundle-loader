@@ -3,7 +3,7 @@ Asset Bundle Loader is a package that lets you download any **[unity asset bundl
 
 ## Simple Usage 🚀
 
- 1. Build your asset bundles with Udo/Build Asset Bundles/Build for IOS
+ 1. Build your asset bundles with Tools/Build Asset Bundles/Build for IOS
     or Android
  2. Upload your asset bundles to your server (you can use github public repos' raw files for testing purposes)
  3. Add AssetBundleLoader.cs singleton to your scene
