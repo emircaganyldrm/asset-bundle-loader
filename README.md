@@ -15,12 +15,14 @@ This method loads given bundle from the server and calls onLoaded action with th
 
 **Example**
 
+```cs
     AssetBundleLoader.Instance.LoadObject<RuntimeAnimatorController>(_conceptData.downloadBundleName, _conceptData.downloadAssetName,  
     o =>  
     {  
         _conceptData.downloadedAC = o;  
         SceneController.Instance.LoadScene(_conceptData.sceneBuildIndex, OnConceptSceneLoaded);  
     });
+```
 
 ### Caching Bundles
 If you want to cache a bundle and load later on you can use `AssetBundleLoader.Instance.LoadBundle(bundleName)` to download the bundle.
